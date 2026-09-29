@@ -23,6 +23,7 @@ class ProductService {
             throw new Exception('Product tidak di temukan');
         }
         return $product;
+        // fijijei
     }
 
     public function storeProduct(array $data){
